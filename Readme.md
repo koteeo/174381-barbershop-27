@@ -1,7 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Konstantine Shaydorov](https://up.htmlacademy.ru/htmlcss/27/user/174381).
-
+* Наставник: [Виктор Гирда](https://htmlacademy.ru/profile/viktorgirda).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
