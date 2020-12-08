@@ -4,27 +4,90 @@ body {
 	margin: 0px;
 	padding: 0px;
 	
+	/*Блочная модель*/
 
+	/*Типрографика*/
+	text-transform: uppercase;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	line-height: 24px;
+	font-weight: 700;
+	font-size: 14px;
+	color: white;
 
+	/*Оформление*/
+	background-color: #000000;
+	background-image: url("../img/jpg/bg.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+
+	/*Анимация*/
+}
+
+a
+{
+	/*Позицонирвание*/
 
 	/*Блочная модель*/
 
-
-
-
-
-	/*Типрографика*/
-
-	background-color: black;
-	font-size: 14px;
+	/*Типографика*/
+	color: inherit;
+	text-decoration: none;
 
 	/*Оформление*/
-	background-image: url("");
 
-
-	
 	/*Анимация*/
 
+}
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.main-nav ul {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	list-style: none;
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.advantages {
+	text-align: center;
+}
+.advantages ul {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типрографика*/
+	list-style: none;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.advantages h3 {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-size: 30px;
+	line-height: 42px;
+	/*Оформление*/
+
+	/*Анимация*/
 
 }
