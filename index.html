@@ -23,7 +23,7 @@
 	  		</ul>
 	  		<ul>
 	  			<li>
-	  				<button type="button">Вход</button>
+	  				<button class="button" type="button">Вход</button>
 	  			</li>
 	  		</ul>
 		  </nav>
@@ -47,60 +47,63 @@
   					</li>
   				</ul>
   			</section>
-  			<section class="news">
-  				<h2>Новости</h2>
-  				<ul>
-  					<li>
-		  				<p>Нам наконец завезли ягермайстер! теперь вы можете пропустить стаканчик во время стрижки</p>
-		  				<time datetime="11-01-2020">11 января</time>
-		  			</li>
-		  			<li>
-		  				<p>В нашей команде пополнение, борис «бритва» стригунец, обладaтель множества титулов и наград пополнил наши стройные ряды</p>
-		  				<time datetime="18-01-2020">18 января</time>
-		  			</li>
-	  			</ul>
-	  			<a class="button" href="news.html">Все новости</a>
-  			</section>
-  			<section class="gallery">
-  				<h2>Фотогалерея</h2>
-  				<figure>
-	  				<a href="#">
-	  					<img src="img/jpg/galery.jpg" alt="Интерьер" width="286" height="164">
-	  				</a>
-	  			</figure>
-  				<button class="button" type="button">Назад</button>
-  				<button class="button" type="button">Вперед</button>
-  			</section>
-  			<section>
-  				<h2>Контактная информация</h2>
-  				<p>
-  					Барбершоп «бородинский» <br>
-  					Адрес: г. санкт-петербург, б. конюшенная, д. 19/8 <br>
-  					Телефон: +7 (495) 666-02-66
-  				</p>
-  				<p>
-  					Время работы:<br>
-  				 	Пн—пт: с 10:00 до 22:00<br>
-  				 	Cб—вс: с 10:00 до 19:00
-  				</p>
-  				<a class="button" href="map.html">Как проехать</a>
-  				<a class="button" href="contacts.html">Обратная связь </a>
-  			</section>
-  			<section>
-  				<h2>Записаться</h2>
-  				<p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-  				<!-- Здесь будет форма -->
-  			</section>
+  			<div class="wrap-section">
+	  			<section class="news">
+	  				<h2>Новости</h2>
+	  				<ul>
+	  					<li>
+			  				<p>Нам наконец завезли ягермайстер! теперь вы можете пропустить стаканчик во время стрижки</p>
+			  				<time datetime="11-01-2020">11 января</time>
+			  			</li>
+			  			<li>
+			  				<p>В нашей команде пополнение, борис «бритва» стригунец, обладaтель множества титулов и наград пополнил наши стройные ряды</p>
+			  				<time datetime="18-01-2020">18 января</time>
+			  			</li>
+		  			</ul>
+		  			<a class="button" href="news.html">Все новости</a>
+	  			</section>
+	  			<section class="gallery">
+	  				<h2>Фотогалерея</h2>
+	  				<figure>
+		  				<a href="#">
+		  					<img src="img/jpg/galery.jpg" alt="Интерьер" width="286" height="164">
+		  				</a>
+		  			</figure>
+	  				<button class="button" type="button">Назад</button>
+	  				<button class="button" type="button">Вперед</button>
+	  			</section>
+  			</div>
+  			<div class="wrap-section">
+	  			<section>
+	  				<h2>Контактная информация</h2>
+	  				<p>
+	  					Барбершоп «бородинский» <br>
+	  					Адрес: г. санкт-петербург, б. конюшенная, д. 19/8 <br>
+	  					Телефон: +7 (495) 666-02-66
+	  				</p>
+	  				<p>
+	  					Время работы:<br>
+	  				 	Пн—пт: с 10:00 до 22:00<br>
+	  				 	Cб—вс: с 10:00 до 19:00
+	  				</p>
+	  				<a class="button" href="map.html">Как проехать</a>
+	  				<a class="button" href="contacts.html">Обратная связь </a>
+	  			</section>
+	  			<section>
+	  				<h2>Записаться</h2>
+	  				<p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+	  				<!-- Здесь будет форма -->
+	  			</section>
+  			</div>
 	  	</main>
-	  	<footer>
-	  		<div>Проверка операции отмены коммита</div>
-	  		<p>
+	  	<footer class="main-footer">
+	  		<p class="footer-contact">
 	  			Барбершоп «бородинский» <br>
 	  			адрес: г. санкт-петербург, ул. б. конюшенная, д. 19/8 <br>
 	  			<a href="#">как нас найти?</a> <br>
 	  			телефон: +7 (495) 666-02-66
 	  		</p>
-	  		<div>
+	  		<div class="footer-social">
 	  			<p>Давайте дружить</p>
 	  			<ul>
 	  				<li><a href="#">Вконтакте</a></li>
@@ -108,15 +111,17 @@
 	  				<li><a href="#">Инстаграмм</a></li>
 	  			</ul>
 	  		</div>
-	  		<p>
+	  		<p class="footer-copyright">
 	  			Разработано:
-	  			<a href="https://htmlacademy.ru">HTML Academy</a>
+	  			<a class="button copyright-button" href="https://htmlacademy.ru">HTML Academy</a>
 	  		</p>
 	  	</footer>
 	  	<section>
 	  		<h2>Личный кабинет</h2>
 	  		<p>Введите пожалуйста свой логин и пароль</p>
-	  		<!-- Здесь будет форма входа-->
+	  		<form class="popup-form" action="#" method="post">
+	  			
+	  		</form>
 				<button type="button">Закрыть</button>
 	  	</section>
 	  	<section>
