@@ -50,19 +50,31 @@ a
   clip: rect(0 0 0 0);
 }
 
-.main-nav ul {
+.main-nav {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
 
 	/*Типографика*/
 	list-style: none;
-
+	color: #ffffff;
 	/*Оформление*/
 	background-color: #000000;
 	/*Анимация*/
 }
-.nav-list a {
+
+.site-nav {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	list-style: none;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.site-nav a {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
@@ -77,18 +89,18 @@ a
 
 	/*Анимация*/
 }
-.nav-item a:hover{
-	
+.user-nav {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
 
-	/*Типрографика*/
-
+	/*Типографика*/
+	list-style: none;
 	/*Оформление*/
-	background-color: #242424;
+
 	/*Анимация*/
 }
+
 .advantages {
 	text-align: center;
 }
@@ -115,8 +127,15 @@ a
 	/*Оформление*/
 
 	/*Анимация*/
-
 }
+
+.advantages h3::after {
+	content: "";
+	width: 32px;
+	height: 31px;
+	background-image: url("../img/png/social/vk.png");
+}
+
 .wrap-section {
 	/*Позиционирование*/
 
@@ -126,8 +145,8 @@ a
 	color: #000000;
 
 	/*Оформление*/
-	background-color: #f0f6f3;
-	background-image: url("../img/png/bg-section-small.png");
+	background-color: #f7f4f1;
+	background-image: url("../img/png/bg/bg-section-small.png");
 	
 	/*Анимация*/
 }
@@ -154,7 +173,7 @@ a
 
 	/*Оформление*/
 	background-color: #232323;
-	background-image: url("../img/png/bg-footer-small.png");
+	background-image: url("../img/png/bg/bg-footer-small.png");
 	/*Анимация*/
 }
 
