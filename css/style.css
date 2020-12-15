@@ -89,6 +89,30 @@ a
 
 	/*Анимация*/
 }
+.site-nav a:focus:not(.link-visit),
+.site-nav a:hover:not(.link-visit ) {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #242424;
+	/*Анимация*/
+}
+.link-visit {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	border-bottom: 1px solid #ffffff;
+	/*Анимация*/
+	
+}
 .user-nav {
 	/*Позиционирование*/
 
@@ -120,7 +144,7 @@ a
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-
+ 
 	/*Типографика*/
 	font-size: 30px;
 	line-height: 42px;
@@ -213,6 +237,68 @@ a
 	background-color: #ffffff;
 	/*Анимация*/
 }
+
+.popup-user-form {
+	/*Позиционирование*/
+	
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #000000;
+
+	/*Оформление*/
+	background-color: #f2f2f2;
+	background-image: url("../img/png/bg/bg-section-small.png");
+
+	/*Анимация*/
+}
+
+.popup-user-form h2 {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	
+	/*Типографика*/
+	font-size: 30px;
+	line-height: 42px;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.popup-user-form a {
+	/*Позиционирование*/
+	
+	/*Блочная модель*/
+
+	/*Типографика*/
+	text-decoration: underline;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.popup-form input {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-size:inherit;
+	text-transform: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+
+	/*Оформление*/
+	background-color: #f9f6f3;
+	border: 2px solid #000000;
+	/*Анимация*/
+}
+.popup-form input::placeholder {
+	color: #000000;
+}
+
+
 .button {
 	/*Позиционирование*/
 
