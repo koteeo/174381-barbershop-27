@@ -107,7 +107,11 @@ a
 	/*Блочная модель*/
 
 	/*Типографика*/
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 62a511bd64e27a77429ed7193408b9ba12f10e1e
 	/*Оформление*/
 	border-bottom: 1px solid #ffffff;
 	/*Анимация*/
@@ -279,20 +283,27 @@ a
 }
 
 .popup-form input {
+<<<<<<< HEAD
 	/*Позиционирование*/
 
 	/*Блочная модель*/
 
 	/*Типографика*/
+=======
+
+>>>>>>> 62a511bd64e27a77429ed7193408b9ba12f10e1e
 	font-size:inherit;
 	text-transform: inherit;
 	font-family: inherit;
 	font-weight: inherit;
+<<<<<<< HEAD
 
 	/*Оформление*/
 	background-color: #f9f6f3;
 	border: 2px solid #000000;
 	/*Анимация*/
+=======
+>>>>>>> 62a511bd64e27a77429ed7193408b9ba12f10e1e
 }
 .popup-form input::placeholder {
 	color: #000000;
