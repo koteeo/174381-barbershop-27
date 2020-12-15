@@ -134,11 +134,22 @@
 	  			<a class="button copyright-button" href="https://htmlacademy.ru">HTML Academy</a>
 	  		</p>
 	  	</footer>
-	  	<section>
+	  	<section class="popup-user-form">
 	  		<h2>Личный кабинет</h2>
 	  		<p>Введите пожалуйста свой логин и пароль</p>
 	  		<form class="popup-form" action="#" method="post">
-	  			
+	  			<p class="login-wrap">
+		  			<label class="visually-hidden" for="user-login">Логин</label>
+		  			<input class="user-login" id="user-login" type="text" name="user-login" placeholder="Логин" required>	
+					</p>
+					<p class="password-wrap">
+						<label class="visually-hidden" for="user-password">Пароль</label>
+						<input class="user-password" id="user-password" type="password" name="user-password" placeholder="Пароль" required>
+					</p>
+					<input class="checkbox-remember" id="checkbox-remember" type="checkbox" name="checkbox-remember" checked>
+					<label for="checkbox-remember">Запомните меня</label>
+					<a class="link-forgot" href="#">Я забыл пароль!</a>
+					<button type="submit" class="button">Войти</button>
 	  		</form>
 				<button type="button">Закрыть</button>
 	  	</section>
