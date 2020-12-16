@@ -294,10 +294,10 @@ a
 	border: 2px solid #000000;
 	/*Анимация*/
 }
-. user-login:focus {
-	border-radius: 0px !important;
-	border-color: yellow;
-	background-color: red;
+.user-login:focus,
+.user-password:focus {
+	border-radius: 0px;
+	outline: none;
 }
 .popup-form input::placeholder {
 	color: #000000;
