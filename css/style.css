@@ -39,17 +39,8 @@ a
 
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
 
+																				/*HEADER*/
 .main-nav {
 	/*Позиционирование*/
 
@@ -124,7 +115,9 @@ a
 
 	/*Анимация*/
 }
+																				/*HEADER-END*/
 
+																				/*SECTION ADVANTAGES*/
 .advantages {
 	text-align: center;
 }
@@ -159,7 +152,9 @@ a
 	height: 31px;
 	background-image: url("../img/png/social/vk.png");
 }
+																						/*SECTION ADVANTAGES-END*/
 
+																						/*SECTION NEWS-GALLERY*/																	*/
 .wrap-section {
 	/*Позиционирование*/
 
@@ -187,7 +182,9 @@ a
 
 	/*Анимация*/
 }
+																					/*SECTION NEWS-GALLERY-END*/
 
+																					/*FOOTER*/
 .main-footer {
 	/*Позиционирование*/
 
@@ -237,7 +234,9 @@ a
 	background-color: #ffffff;
 	/*Анимация*/
 }
+																							/*FOOTER-END*/
 
+																							/*POPUP*/
 .popup-user-form {
 	/*Позиционирование*/
 	
@@ -301,8 +300,22 @@ a
 }
 .popup-form input::placeholder {
 	color: #000000;
-}
+}		
+																					/*POPUP-END*/
+			
+																					/*PATTERN*/
 
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 
 .button {
 	/*Позиционирование*/
@@ -334,3 +347,5 @@ a
 	/*Анимация*/
 
 }
+
+																						/*PATTERN-END*/
