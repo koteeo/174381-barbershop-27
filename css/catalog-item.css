@@ -1,0 +1,42 @@
+body {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	color: #000000;
+
+	/*Оформление*/
+	background-color: #f2f2f2;
+	background-image: url("../img/png/bg/bg-section-small.png");
+	background-repeat: repeat;
+	/*Анимация*/
+}
+
+h1 {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-size: 30px;
+	line-height: 42px;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.breadcrumbs {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	padding: 0px;
+	margin: 0px;
+	/*Типографика*/
+
+	/*Оформление*/
+	list-style: none;	
+	/*Анимация*/
+	
+}
