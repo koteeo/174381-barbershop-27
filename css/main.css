@@ -40,7 +40,7 @@ a
 }
 
 
-																				/*HEADER*/
+																						/*HEADER*/
 .main-nav {
 	/*Позиционирование*/
 
@@ -117,74 +117,7 @@ a
 }
 																				/*HEADER-END*/
 
-																				/*SECTION ADVANTAGES*/
-.advantages {
-	text-align: center;
-}
-.advantages ul {
-	/*Позиционирование*/
-
-	/*Блочная модель*/
-
-	/*Типрографика*/
-	list-style: none;
-	/*Оформление*/
-
-	/*Анимация*/
-}
-
-.advantages h3 {
-	/*Позиционирование*/
-
-	/*Блочная модель*/
- 
-	/*Типографика*/
-	font-size: 30px;
-	line-height: 42px;
-	/*Оформление*/
-
-	/*Анимация*/
-}
-
-.advantages h3::after {
-	content: "";
-	width: 32px;
-	height: 31px;
-	background-image: url("../img/png/social/vk.png");
-}
-																						/*SECTION ADVANTAGES-END*/
-
-																						/*SECTION NEWS-GALLERY*/																	*/
-.wrap-section {
-	/*Позиционирование*/
-
-	/*Блочная модель*/
-
-	/*Типрографика*/
-	color: #000000;
-
-	/*Оформление*/
-	background-color: #f7f4f1;
-	background-image: url("../img/png/bg/bg-section-small.png");
-	
-	/*Анимация*/
-}
-.wrap-section h2 {
-	/*Позиционирование*/
-
-	/*Блочная модель*/
-
-	/*Типографика*/
-	font-size: 30px;
-	line-height: 42px;
-
-	/*Оформление*/
-
-	/*Анимация*/
-}
-																					/*SECTION NEWS-GALLERY-END*/
-
-																					/*FOOTER*/
+/*FOOTER*/
 .main-footer {
 	/*Позиционирование*/
 
@@ -236,74 +169,11 @@ a
 }
 																							/*FOOTER-END*/
 
-																							/*POPUP*/
-.popup-user-form {
-	/*Позиционирование*/
-	
-	/*Блочная модель*/
 
-	/*Типографика*/
-	color: #000000;
 
-	/*Оформление*/
-	background-color: #f2f2f2;
-	background-image: url("../img/png/bg/bg-section-small.png");
 
-	/*Анимация*/
-}
 
-.popup-user-form h2 {
-	/*Позиционирование*/
-
-	/*Блочная модель*/
-	
-	/*Типографика*/
-	font-size: 30px;
-	line-height: 42px;
-	/*Оформление*/
-
-	/*Анимация*/
-}
-
-.popup-user-form a {
-	/*Позиционирование*/
-	
-	/*Блочная модель*/
-
-	/*Типографика*/
-	text-decoration: underline;
-	/*Оформление*/
-
-	/*Анимация*/
-}
-
-.popup-form input {
-	/*Позиционирование*/
-
-	/*Блочная модель*/
-
-	/*Типографика*/
-	font-size:inherit;
-	text-transform: inherit;
-	font-family: inherit;
-	font-weight: inherit;
-
-	/*Оформление*/
-	background-color: #f9f6f3;
-	border: 2px solid #000000;
-	/*Анимация*/
-}
-.user-login:focus,
-.user-password:focus {
-	border-radius: 0px;
-	outline: none;
-}
-.popup-form input::placeholder {
-	color: #000000;
-}		
-																					/*POPUP-END*/
-			
-																					/*PATTERN*/
+																							/*PATTERN*/
 
 
 .visually-hidden {
