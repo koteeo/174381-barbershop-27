@@ -1,48 +1,44 @@
-																		/*GENERAL				*/
 body {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
 
 	/*Типографика*/
-
 	color: #000000;
-
 	/*Оформление*/
 	background-color: #f2f2f2;
-	background-image: url("../img/png/bg/bg-section-small.png");
+	background-image: url(../img/png/bg/bg-section-small.png);
 	background-repeat: repeat;
 	/*Анимация*/
 }
 
-h1 {
+.page-title {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
 
 	/*Типографика*/
-	font-size: 30px;
-	line-height: 42px;
+	color: #000000;
 	/*Оформление*/
 
 	/*Анимация*/
+	
 }
-																	/*GENERAL-END*/
-
+																		/*ASIDE-FILTER*/
 
 .breadcrumbs {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-	padding: 0px;
 	margin: 0px;
+	padding: 0px;
 	/*Типографика*/
-
+	list-style: none;
 	/*Оформление*/
-	list-style: none;	
+
 	/*Анимация*/
-	
 }
+
 .visited-crumbs {
 	/*Позиционирование*/
 
@@ -54,7 +50,8 @@ h1 {
 
 	/*Анимация*/
 }
-.pic-list {
+
+.filter-list {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
@@ -65,54 +62,103 @@ h1 {
 
 	/*Анимация*/
 }
-.travel-kit-full,
-  .pic-list img {
+																			/*ASIDE-FILTER-END*/
+
+											
+																			/*CATALOG-SECTION*/
+
+.catalog {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
+	width: 750px;
+	height: auto;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.catalog-item {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 20px;
+	margin-bottom: 20px;
 
 	/*Типографика*/
+
 	/*Оформление*/
+	background-color: #ffffff;
 	box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
 	/*Анимация*/
 }
-
-														/*ASIDE*/
-.vendor-code {
+.catalog-item:nth-of-type(3n) {
 	/*Позиционирование*/
-
+	
 	/*Блочная модель*/
-
+	margin-right: 0px;
 	/*Типографика*/
-	color: #aeaeae;
+	
 	/*Оформление*/
 
 	/*Анимация*/
 }
 
-.specification ul {
+
+.catalog-category {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-	margin: 0px;
+	display: block;
 	/*Типографика*/
-
+	text-transform: none;
 	/*Оформление*/
 
 	/*Анимация*/
 }
 
-.specification h3 {
+.catalog-list {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
 
 	/*Типографика*/
-	font-size: 24px;
-	font-family: inherit;
+	
+	/*Оформление*/
+	list-style: none;
+	/*Анимация*/
+}
+
+.pagination {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	list-style: none;
 	/*Оформление*/
 
 	/*Анимация*/
 }
+.pagination-item {
+	/*Позиционирование*/
 
-														/*ASIDE-END*/
+	/*Блочная модель*/
+	width: 43px;
+	height: 43px;
+	display: inline-block;
+	/*Типографика*/
+	color: #ffffff;
+	text-align: center;
+	line-height: 43px;
+	/*Оформление*/
+	background-color: #000000;
+	/*Анимация*/
+	}
+}
+
+																					/*CATALOG-SECTION*/

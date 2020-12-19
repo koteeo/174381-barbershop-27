@@ -208,7 +208,7 @@ a
 
 .button:hover {
 	/*Позиционирование*/
-
+ 
 	/*Блочная модель*/
 
 	/*Типографика*/
@@ -218,5 +218,19 @@ a
 	/*Анимация*/
 
 }
+.price-box {
+	/*Позиционирование*/
 
+	/*Блочная модель*/
+	display: inline-block;
+	width: 109px;
+	height: 43px;
+	line-height: 43px;
+	/*Типографика*/
+	vertical-align: middle;
+	text-align: center;
+	/*Оформление*/
+	background-color: #e5e5e5;
+	/*Анимация*/
+}
 																						/*PATTERN-END*/
