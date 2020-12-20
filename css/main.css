@@ -180,6 +180,7 @@ a
 	color: #000000;
 	/*Оформление*/
 	background-color: #f8f5f2;
+	background-image: url("../img/png/bg/bg-section-small.png");
 	/*Анимация*/
 }
 
@@ -236,8 +237,18 @@ a
 	/*Оформление*/
 	background-color: #f9f6f3;
 	/*Анимация*/
+}
 
+.link-forgot {
+	/*Позиционирование*/
 
+	/*Блочная модель*/
+	
+	/*Типографика*/
+	text-decoration: underline;
+	/*Оформление*/
+
+	/*Анимация*/
 }
 
 

@@ -41,7 +41,8 @@
 
 	/*Оформление*/
 	background-color: #F9F6F3;
-	background-color: url("../img/png/bg/bg-section-small.png");
+	background-image: url("../img/png/bg/bg-section-small.png");
+	background-repeat: repeat;
 
 	/*Анимация*/
 }
