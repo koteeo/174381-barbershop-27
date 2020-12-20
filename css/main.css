@@ -170,9 +170,85 @@ a
 }
 																							/*FOOTER-END*/
 
+																							/*POPUPS*/
+.popup-user-form {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #000000;
+	/*Оформление*/
+	background-color: #f8f5f2;
+	/*Анимация*/
+}
+
+.popup-user-form h2 {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-size: 30px;
+	font-weight: inherit;
+	font-family: inherit;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.popup-form input {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	width: ;
+	padding-top: 16px;
+	padding-left: 17px;
+	padding-bottom: 17px;
+	/*Типографика*/
+
+	/*Оформление*/
+	border: 2px solid #000000;
+	background-color: #f9f6f3;
+	/*Анимация*/
+}
+
+.popup-form input::placeholder  {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	
+	/*Типографика*/
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: 700;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+.popup-form input:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	outline: none;
+	/*Оформление*/
+	background-color: #f9f6f3;
+	/*Анимация*/
+
+
+}
 
 
 
+
+
+
+
+
+
+																							/*POPUPS-END*/
 
 																							/*PATTERN*/
 
