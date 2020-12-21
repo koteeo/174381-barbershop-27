@@ -111,11 +111,11 @@ a
 
 	/*Типографика*/
 	list-style: none;
+	font-size: 14px;
 	/*Оформление*/
 
 	/*Анимация*/
-}
-																				/*HEADER-END*/
+}																				/*HEADER-END*/
 
 																				/*BREADCRUMBS*/
 			
@@ -330,8 +330,10 @@ a
 	/*Типография*/
 	color: #faf7f4;
 	font-size: 14px;
+	line-height: 24px;
 	font-weight: inherit;
 	text-transform: inherit;
+	font-family: inherit;
 	text-align: center;
 	vertical-align: middle;
 	/*Оформление*/
