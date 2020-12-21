@@ -9,5 +9,69 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap">
 		<title>Прайс-лист</title>
 	</head>
+	<body>
+		<header>
+			<nav class="main-nav">
+	  		<a href="#">
+	  			<img src="img/svg/logo.svg" alt="Логотип" width="371" height="155">
+	  		</a>
+	  		<ul class="site-nav">
+	  			<li><a class="link-visit" href="#">Информация</a></li>
+	  			<li><a href="news.html">Новости</a></li>
+	  			<li><a href="price.html">Прайс-лист</a></li>
+	  			<li><a href="catalog.html">Магазин</a></li>
+	  			<li><a href="contacts.html">Контакты</a></li>
+	  		</ul>
+	  		<ul class="user-nav">
+	  			<li>
+	  				<button class="button" type="button">Вход</button>
+	  			</li>
+	  		</ul>
+		  </nav>
+		</header>
+		<main>
 
+		</main>
+		<footer class="main-footer">
+	  		<p class="footer-contact">
+	  			Барбершоп «бородинский» <br>
+	  			адрес: г. санкт-петербург, ул. б. конюшенная, д. 19/8 <br>
+	  			<a href="#">как нас найти?</a> <br>
+	  			телефон: +7 (495) 666-02-66
+	  		</p>
+	  		<div class="footer-social">
+	  			<p>Давайте дружить</p>
+	  			<ul>
+	  				<li><a href="#">Вконтакте</a></li>
+	  				<li><a href="#">Фейсбук</a></li>
+	  				<li><a href="#">Инстаграмм</a></li>
+	  			</ul>
+	  		</div>
+	  		<p class="footer-copyright">
+	  			Разработано:
+	  			<a class="button copyright-button" href="https://htmlacademy.ru">HTML Academy</a>
+	  		</p>
+	  	</footer>
+	  	<section class="popup-user-form">
+	  		<h2>Личный кабинет</h2>
+	  		<p>Введите пожалуйста свой логин и пароль</p>
+	  		<form class="popup-form" action="#" method="post">
+	  			<p class="login-wrap">
+		  			<label class="visually-hidden" for="user-login">Логин</label>
+		  			<input class="user-login" id="user-login" type="text" name="user-login" placeholder="Логин" required>	
+					</p>
+					<p class="password-wrap">
+						<label class="visually-hidden" for="user-password">Пароль</label>
+						<input class="user-password" id="user-password" type="password" name="user-password" placeholder="Пароль" required>
+					</p>
+					<div class="remember-wrap">
+						<input class="checkbox-remember" id="checkbox-remember" type="checkbox" name="checkbox-remember" checked>
+						<label for="checkbox-remember">Запомните меня</label>
+						<a class="link-forgot" href="#">Я забыл пароль!</a>
+					</div>
+					<button class="button" type="submit">Войти</button>
+	  		</form>
+				<button type="button">Закрыть</button>
+	  	</section>
+	</body>
 </html>
