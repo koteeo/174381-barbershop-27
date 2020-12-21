@@ -26,43 +26,6 @@ body {
 }
 																		/*ASIDE-FILTER*/
 
-.breadcrumbs {
-	/*Позиционирование*/
-
-	/*Блочная модель*/
-	margin: 0px;
-	padding: 0px;
-	/*Типографика*/
-	list-style: none;
-	/*Оформление*/
-
-	/*Анимация*/
-}
-
-.breadcrumbs a:hover,
-.breadcrumbs a:focus {
-	/*Позиционирование*/
-
-	/*Блочная модель*/
-
-	/*Типографика*/
-	text-decoration: underline;
-	/*Оформление*/
-
-	/*Анимация*/
-}
-
-.visited-crumbs {
-	/*Позиционирование*/
-
-	/*Блочная модель*/
-
-	/*Типографика*/
-	color: #aba9a7;
-	/*Оформление*/
-
-	/*Анимация*/
-}
 
 .filters fieldset {
 	/*Позиционирование*/

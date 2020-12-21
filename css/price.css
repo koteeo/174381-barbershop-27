@@ -1,0 +1,43 @@
+													/*GENERAL*/
+body {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	color: #000000;
+
+	/*Оформление*/
+	background-color: #f8f5f2;
+	background-image: url(../img/png/bg/bg-section-small.png);
+	background-repeat: repeat;
+	/*Анимация*/
+}
+
+													/*GENERAL-END*/
+
+
+.slogan {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	font-size: 48px;
+	line-height: 48px;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.resourses h2 {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	
+	/*Типографика*/
+	font-size: 24px;
+	/*Оформление*/
+
+	/*Анимация*/
+}
