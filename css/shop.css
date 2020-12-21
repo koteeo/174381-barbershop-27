@@ -156,7 +156,20 @@ body {
 
 	/*Оформление*/
 	background-color: #ffffff;
-	box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
+	box-shadow: 0 0 15px rgba(0, 1, 1, 0.1);
+	/*Анимация*/
+}
+
+.catalog-item:hover,
+.catalog-item:focus {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+	
+	/*Оформление*/
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 	/*Анимация*/
 }
 .catalog-item:nth-of-type(3n) {
@@ -196,6 +209,19 @@ body {
 	/*Анимация*/
 }
 
+.buy-button:focus,
+.buy-button:hover	{
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #663d15;
+	/*Анимация*/
+}
+
 .pagination {
 	/*Позиционирование*/
 
@@ -207,23 +233,34 @@ body {
 
 	/*Анимация*/
 }
-.pagination-item {
+.pagination-item a {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-	width: 43px;
-	height: 43px;
-	display: inline-block;
 	/*Типографика*/
 	color: #ffffff;
 	text-align: center;
-	line-height: 43px;
 	/*Оформление*/
 	background-color: #000000;
 	/*Анимация*/
 	}
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+	/*Позиционирование*/
 
-.current-pagination {
+	/*Блочная модель*/
+
+	/*Типографика*/
+
+	/*Оформление*/
+	background-color: #663d15;
+	/*Анимация*/
+}
+.current-pagination a,
+.current-pagination a:focus,
+.current-pagination a:hover,
+.current-pagination a:active {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
