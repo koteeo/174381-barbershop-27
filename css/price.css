@@ -63,15 +63,52 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	/*Оформление*/
-
 	/*Анимация*/
 }
 
 .price-table {
 	/*Позиционирование*/
+	width: 462px;
+	height: auto;
+	/*Блочная модель*/
+	display: table;
+	/*Типографика*/
+	
+	/*Оформление*/
+	border-collapse: collapse;
+	/*Анимация*/
+}
+
+.price-table ul {
+	/*Позиционирование*/
 
 	/*Блочная модель*/
+	display: table-row;
+	/*Типографика*/
 
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.price-table li {
+	/*Позиционирование*/
+
+	/*Блочная модедь*/
+	display: table-cell;
+	border: 2px solid #000101;
+	padding: 15px;  
+	/*Типографика*/
+	
+	/*Оформление*/
+		
+	/*Анимация*/
+}
+.price-table li:first-child {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	width: 50%;
 	/*Типографика*/
 	
 	/*Оформление*/
@@ -79,6 +116,46 @@ body {
 	/*Анимация*/
 }
 
+.price-table li:last-child {
+	 /*Позиционирование*/
 
+	 /*Блочная модель*/
+	width: 50%;
+	 /*Типографика*/
+	text-align: center;
+	 /*Оформление*/
+	
+	 /*Анимация*/
+}
 
 													/*SECTION-PRICE-RESOURSES-END*/
+
+
+													/*SECTION-WORDS-ABOUT-US*/
+
+.words-about-us h2 {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	
+	/*Типографика*/
+	font-size: 24px;
+	line-height: 30px;
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+.words-about-us p {
+	/*Позиционирование*/
+
+	/*Блочная модель*/
+	width: 385px;
+	/*Типографика*/
+
+	/*Оформление*/
+
+	/*Анимация*/
+}
+
+													/*SECTION-WORDS-ABOUT-US-END*/
