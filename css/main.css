@@ -41,6 +41,27 @@ a
 
 
 																						/*HEADER*/
+
+.main-nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.logo {
+	
+	order: 3;
+}
+
+
+.nav-wrapper {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	background-color: #000000;
+	min-height: 72px;
+}
 .main-nav {
 	/*Позиционирование*/
 
@@ -50,7 +71,6 @@ a
 	list-style: none;
 	color: #ffffff;
 	/*Оформление*/
-	background-color: #000000;
 	/*Анимация*/
 }
 
@@ -58,18 +78,27 @@ a
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-
+	display: flex;
+	margin: 0px;
+	padding: 0px;
 	/*Типографика*/
 	list-style: none;
 	/*Оформление*/
 
 	/*Анимация*/
 }
+.site-nav li {
+	height: 72px;
+	margin: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
 .site-nav a {
 	/*Позиционирование*/
 
 	/*Блочная модель*/
-
 	/*Типографика*/
 	font-size: 16px;
 	line-height: 20px;
